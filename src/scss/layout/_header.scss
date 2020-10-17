@@ -102,14 +102,16 @@
     }
 
     &__menu-toggle {
-        padding: 0;
         background: none;
         border: none;
-        line-height: 1;
-        height: auto;
         box-shadow: none;
+        font-size: 0;
+        height: auto;
+        line-height: 1;
+        padding: 0;
 
         & span {
+            font-size: 40px;
             color: #fff;
         }
     }
@@ -154,20 +156,20 @@
     .header {
         // Opened burger menu
         &__menu-list {
-            background: rgba(#5474fd, 0.7);
+            background: rgba(#5474fd, 0.85);
             display: block;
             left: 0;
             position: absolute;
             right: 0;
             text-align: center;
-            top: 826px;
+            top: 841px;
             transform: translateX(-100%);
             transition: transform 0.3s;
             width: 100%;
 
             li {
-                margin-top: 15px;
-                margin-bottom: 15px;
+                margin-top: 25px;
+                margin-bottom: 25px;
             }
 
             &.open {
