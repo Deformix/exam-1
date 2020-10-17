@@ -97,6 +97,12 @@ function images(){
     .pipe(browsersync.stream())
 }
 
+function js() {
+    return src(path.src.js)
+        .pipe(dest(path.build.js))
+        .pipe(browsersync.stream())
+}
+
 function fonts(){
     return src(path.src.fonts)
     .pipe(dest(path.build.fonts))
@@ -105,16 +111,16 @@ function fonts(){
 function watchFiles() {
     gulp.watch([path.watch.html], html);
     gulp.watch([path.watch.css], css);
+    gulp.watch([path.watch.js], js);
     gulp.watch([path.watch.img], images);
 }
-
 
 function clean() {
     return del(path.clean)
 }
 
 
-let build = gulp.series(clean, gulp.parallel(css, html, images, fonts));
+let build = gulp.series(clean, gulp.parallel(css, html, js, images, fonts));
 let watch = gulp.parallel(build, watchFiles, browserSyncReload);
 
 
