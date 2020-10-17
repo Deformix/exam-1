@@ -36,7 +36,7 @@
         padding: 2px;
 
         &-wrapper {
-            margin: 0 15px;
+            margin: 0 10px;
         }
     }
 
@@ -160,7 +160,7 @@
             position: absolute;
             right: 0;
             text-align: center;
-            top: 880px;
+            top: 826px;
             transform: translateX(-100%);
             transition: transform 0.3s;
             width: 100%;
@@ -178,10 +178,11 @@
         &__menu-item:not(:first-child) {
             margin-left: 0;
         }
-    }
+}
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 450px){
     .header {
         &__title {
             font-size: 38px;
@@ -190,7 +191,7 @@
         &__search {
             flex-direction: column;
             background-color: transparent;
-
+            
             &-input {
                 height: 90px;
                 padding-top: 10px;
@@ -204,5 +205,6 @@
                 padding-bottom: 10px;
             }
         }
+
     }
 }
