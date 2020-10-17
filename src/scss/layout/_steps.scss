@@ -3,7 +3,8 @@
     padding: 90px 0 110px;
 
     &__title {
-        display: none;
+        color: transparent;
+        font-size: 0;
     }
 
     &__list {
