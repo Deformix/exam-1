@@ -1,3 +1,19 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.button {
+    background-color: #5474fd;
+    border: none;
+    color: #ffffff;
+    font-family: "Aleo", serif;
+    font-size: 14px;
+    height: 56px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: ease-in 0.3s;
+    width: 184px;
+
+    &:hover {
+        background-color: darken(#5474fd, 10%);
+    }
+}

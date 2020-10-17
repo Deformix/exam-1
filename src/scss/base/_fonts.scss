@@ -1,3 +1,250 @@
 // -----------------------------------------------------------------------------
 // This file contains all @font-face declarations, if any.
 // -----------------------------------------------------------------------------
+@font-face {
+    font-family: 'bhromaon-icons';
+    src:  url('../fonts/bhromaon-icons.eot?spaujw');
+    src:  url('../fonts/bhromaon-icons.eot?spaujw#iefix') format('embedded-opentype'),
+      url('../fonts/bhromaon-icons.ttf?spaujw') format('truetype'),
+      url('../fonts/bhromaon-icons.woff?spaujw') format('woff'),
+      url('../fonts/bhromaon-icons.svg?spaujw#bhromaon-icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'bhromaon-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-menu-1:before {
+    content: "\e947";
+  }
+
+  .icon-arrow-down:before {
+    content: "\e946";
+    color: #fff;
+  }
+  
+  .icon-airplay:before {
+    content: "\e900";
+  }
+  .icon-album:before {
+    content: "\e901";
+  }
+  .icon-angle-down-circle:before {
+    content: "\e902";
+  }
+  .icon-angle-left:before {
+    content: "\e903";
+  }
+  .icon-angle-right:before {
+    content: "\e904";
+  }
+  .icon-arc:before {
+    content: "\e905";
+  }
+  .icon-battery:before {
+    content: "\e906";
+  }
+  .icon-bell:before {
+    content: "\e907";
+  }
+  .icon-bluetooth:before {
+    content: "\e908";
+  }
+  .icon-box2:before {
+    content: "\e909";
+  }
+  .icon-browser:before {
+    content: "\e90a";
+  }
+  .icon-cash:before {
+    content: "\e90b";
+  }
+  .icon-chat:before {
+    content: "\e90c";
+  }
+  .icon-check:before {
+    content: "\e90d";
+  }
+  .icon-coffee:before {
+    content: "\e90e";
+  }
+  .icon-comment:before {
+    content: "\e90f";
+  }
+  .icon-config:before {
+    content: "\e910";
+  }
+  .icon-crop:before {
+    content: "\e911";
+  }
+  .icon-culture:before {
+    content: "\e912";
+  }
+  .icon-cup:before {
+    content: "\e913";
+  }
+  .icon-date:before {
+    content: "\e914";
+  }
+  .icon-disk:before {
+    content: "\e915";
+  }
+  .icon-display2:before {
+    content: "\e916";
+  }
+  .icon-download:before {
+    content: "\e917";
+  }
+  .icon-expand1:before {
+    content: "\e918";
+  }
+  .icon-eyedropper:before {
+    content: "\e919";
+  }
+  .icon-filter:before {
+    content: "\e91a";
+  }
+  .icon-folder:before {
+    content: "\e91b";
+  }
+  .icon-gift:before {
+    content: "\e91c";
+  }
+  .icon-gym:before {
+    content: "\e91d";
+  }
+  .icon-home:before {
+    content: "\e91e";
+  }
+  .icon-hourglass:before {
+    content: "\e91f";
+  }
+  .icon-junk:before {
+    content: "\e920";
+  }
+  .icon-like2:before {
+    content: "\e921";
+  }
+  .icon-mail:before {
+    content: "\e922";
+  }
+  .icon-mail-open:before {
+    content: "\e923";
+  }
+  .icon-mail-open-file:before {
+    content: "\e924";
+  }
+  .icon-male:before {
+    content: "\e925";
+  }
+  .icon-map:before {
+    content: "\e926";
+  }
+  .icon-moon:before {
+    content: "\e927";
+  }
+  .icon-more:before {
+    content: "\e928";
+  }
+  .icon-network:before {
+    content: "\e929";
+  }
+  .icon-news-paper:before {
+    content: "\e92a";
+  }
+  .icon-note:before {
+    content: "\e92b";
+  }
+  .icon-paperclip:before {
+    content: "\e92c";
+  }
+  .icon-pendrive:before {
+    content: "\e92d";
+  }
+  .icon-photo-gallery:before {
+    content: "\e92e";
+  }
+  .icon-pin:before {
+    content: "\e92f";
+  }
+  .icon-play:before {
+    content: "\e930";
+  }
+  .icon-plug:before {
+    content: "\e931";
+  }
+  .icon-portfolio:before {
+    content: "\e932";
+  }
+  .icon-prev:before {
+    content: "\e933";
+  }
+  .icon-radio:before {
+    content: "\e934";
+  }
+  .icon-repeat:before {
+    content: "\e935";
+  }
+  .icon-search:before {
+    content: "\e936";
+  }
+  .icon-share:before {
+    content: "\e937";
+  }
+  .icon-shuffle:before {
+    content: "\e938";
+  }
+  .icon-smile:before {
+    content: "\e939";
+  }
+  .icon-stopwatch:before {
+    content: "\e93a";
+  }
+  .icon-ticket:before {
+    content: "\e93b";
+  }
+  .icon-tools:before {
+    content: "\e93c";
+  }
+  .icon-trash:before {
+    content: "\e93d";
+  }
+  .icon-unlock:before {
+    content: "\e93e";
+  }
+  .icon-upload:before {
+    content: "\e93f";
+  }
+  .icon-usb:before {
+    content: "\e940";
+  }
+  .icon-user:before {
+    content: "\e941";
+  }
+  .icon-user-female:before {
+    content: "\e942";
+  }
+  .icon-vector:before {
+    content: "\e943";
+  }
+  .icon-voicemail:before {
+    content: "\e944";
+  }
+  .icon-world:before {
+    content: "\e945";
+  }
+  
