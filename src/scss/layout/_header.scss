@@ -2,12 +2,17 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 .header {
+    height: 100vh;
     background: url("../img/header-bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &__inner {
+        width: 650px;
         padding: 270px 0 0;
         position: relative;
         text-align: center;
@@ -75,8 +80,11 @@
     &__scroll {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        height: 100px;
         font-size: 14px;
         letter-spacing: 2px;
+        margin-top: auto;
         margin-bottom: 136px;
 
         &-icon {
@@ -159,15 +167,22 @@
 
 @media screen and (max-width: 767px) {
     .header {
+        &__navigation-wrapper {
+            order: -1;
+        }
+
+        &__inner {
+            padding-top: 180px;
+        }
         // Opened burger menu
         &__menu-list {
-            background: rgba(#5474fd, 0.85);
+            background: #5474fd;
             display: block;
             left: 0;
             position: absolute;
             right: 0;
             text-align: center;
-            top: 841px;
+            top: 80px;
             transform: translateX(-100%);
             transition: transform 0.3s;
             width: 100%;
@@ -175,6 +190,12 @@
             li {
                 margin-top: 25px;
                 margin-bottom: 25px;
+                padding: 30px;
+               
+
+                & a {
+                    padding: 30px;
+                }
             }
 
             &.open {
@@ -188,8 +209,18 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 680px) { 
+    .header__inner {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 480px) {
     .header {
+        &__inner {
+            width: auto;
+        }
+
         &__title {
             font-size: 38px;
         }
